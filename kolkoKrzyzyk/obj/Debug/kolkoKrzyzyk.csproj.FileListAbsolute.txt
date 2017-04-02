@@ -1,0 +1,10 @@
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\bin\Debug\kolkoKrzyzyk.exe.config
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\bin\Debug\kolkoKrzyzyk.exe
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\bin\Debug\kolkoKrzyzyk.pdb
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Debug\kolkoKrzyzyk.csprojResolveAssemblyReference.cache
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Debug\kolkoKrzyzyk.Form1.resources
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Debug\kolkoKrzyzyk.Properties.Resources.resources
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Debug\kolkoKrzyzyk.csproj.GenerateResource.Cache
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Debug\kolkoKrzyzyk.exe
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Debug\kolkoKrzyzyk.pdb
+c:\users\daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Debug\kolkoKrzyzyk.Form2.resources
