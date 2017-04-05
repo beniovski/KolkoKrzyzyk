@@ -1,0 +1,9 @@
+C:\Users\Daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\bin\Release\kolkoKrzyzyk.exe.config
+C:\Users\Daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\bin\Release\kolkoKrzyzyk.exe
+C:\Users\Daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\bin\Release\kolkoKrzyzyk.pdb
+C:\Users\Daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Release\kolkoKrzyzyk.Form1.resources
+C:\Users\Daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Release\kolkoKrzyzyk.Form2.resources
+C:\Users\Daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Release\kolkoKrzyzyk.Properties.Resources.resources
+C:\Users\Daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Release\kolkoKrzyzyk.csproj.GenerateResource.Cache
+C:\Users\Daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Release\kolkoKrzyzyk.exe
+C:\Users\Daniel\documents\visual studio 2017\Projects\kolkoKrzyzyk\kolkoKrzyzyk\obj\Release\kolkoKrzyzyk.pdb

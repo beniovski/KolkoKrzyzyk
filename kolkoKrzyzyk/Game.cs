@@ -36,14 +36,68 @@ namespace kolkoKrzyzyk
         {
             return KolejkaGracz.Nick;
         }
-
-        public void Round()
+        public void Resut()
         {
-            pictureBox2.Image = Image.FromFile(Form2.game.KolejkaGracz.PicturePath);
-            pictureBox2.Enabled = false;
-            Form2.game.ChangUser();
-            pictureBox14.Image = Image.FromFile(Form2.game.KolejkaGracz.PicturePath);
-            label1.Text = Form2.game.UserNick();
+            if (ChckResult())
+            {
+                MessageBox.Show($"Wygrana zawodnika {KolejkaGracz.Nick}");
+                pictureDisable();
+            }           
+                    
+        }
+
+        public void pictureDisable()
+        {
+            var pictureToDisable = Form1.form.pictureBoxes;
+            foreach(var ptd in pictureToDisable)
+            {
+                ptd.Enabled = false;
+            }
+        }
+        public void pictureEnables()
+        {
+            var pictureToDisable = Form1.form.pictureBoxes;
+            foreach (var ptd in pictureToDisable)
+            {
+                ptd.Enabled = true;
+            }
+        }
+
+        public void pictureReset()
+        {
+            var pictureToReset = Form1.form.pictureBoxes;
+            foreach (var ptc in pictureToReset)
+            {
+                ptc.Image = null;
+            }
+        }
+
+        public void pointReset()
+        {
+            foreach(var point in KolejkaGracz.Score)
+            {
+
+            }
+
+
+        }
+
+
+        private bool ChckResult()
+        {
+            if ((KolejkaGracz.Score[1] == true && KolejkaGracz.Score[2] == true && KolejkaGracz.Score[3] == true) ||
+                (KolejkaGracz.Score[4] == true && KolejkaGracz.Score[5] == true && KolejkaGracz.Score[6] == true) ||
+                (KolejkaGracz.Score[7] == true && KolejkaGracz.Score[8] == true && KolejkaGracz.Score[9] == true) ||
+                (KolejkaGracz.Score[1] == true && KolejkaGracz.Score[4] == true && KolejkaGracz.Score[7] == true) ||
+                (KolejkaGracz.Score[2] == true && KolejkaGracz.Score[5] == true && KolejkaGracz.Score[8] == true) ||
+                (KolejkaGracz.Score[3] == true && KolejkaGracz.Score[6] == true && KolejkaGracz.Score[9] == true) ||
+                (KolejkaGracz.Score[1] == true && KolejkaGracz.Score[5] == true && KolejkaGracz.Score[9] == true) ||
+                (KolejkaGracz.Score[7] == true && KolejkaGracz.Score[5] == true && KolejkaGracz.Score[3] == true))
+            {
+                return true;
+            }
+            else
+                return false;
         }
         
     }

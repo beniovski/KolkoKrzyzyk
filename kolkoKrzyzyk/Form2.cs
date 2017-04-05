@@ -12,7 +12,7 @@ namespace kolkoKrzyzyk
 {
      public partial class Form2 : Form
     {
-        public static Game game { get;  set; }
+        public static Game game { get; private  set; }
 
         public Form2()
         {
@@ -25,12 +25,12 @@ namespace kolkoKrzyzyk
             User Gracz2 = new User(textBox2.Text, "../../ikony/koło.jpg");
             Game Game = new Game(Gracz1, Gracz2);
             game = Game;
-
+            game.pictureReset();
+            game.pictureEnables();
             Form1.form.Label1SetValue(textBox1.Text);
             Form1.form.MainPictureSet(Gracz1.PicturePath);
             Form1.form.Refresh();
             this.Close();
-
         }
 
         private void Form2_Load(object sender, EventArgs e)

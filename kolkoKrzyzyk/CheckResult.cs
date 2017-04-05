@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kolkoKrzyzyk
 {
-    class WinCheck
+    class CheckResult
     {
         
 
