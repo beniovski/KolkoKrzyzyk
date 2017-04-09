@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace kolkoKrzyzyk
 {
     public class Game
     {
+        
         public User KolejkaGracz { get; protected set; }
         private User Gracz1;
         private User Gracz2;
@@ -74,14 +76,19 @@ namespace kolkoKrzyzyk
 
         public void pointReset()
         {
-            foreach(var point in KolejkaGracz.Score)
+            for (int i = 0; i < KolejkaGracz.Score.Length; i++)
             {
-
+                KolejkaGracz.Score[i] = false;
             }
-
-
+            for (int i = 0; i < Gracz1.Score.Length; i++)
+            {
+                Gracz1.Score[i] = false;
+            }
+            for (int i = 0; i < Gracz2.Score.Length; i++)
+            {
+                Gracz2.Score[i] = false;
+            }
         }
-
 
         private bool ChckResult()
         {
@@ -98,6 +105,17 @@ namespace kolkoKrzyzyk
             }
             else
                 return false;
+        }
+
+        public void OneRound(PictureBox pb, int i)
+        {
+            pb.Image = Image.FromFile(Form2.game.KolejkaGracz.PicturePath);
+            pb.Enabled = false;
+            Form2.game.KolejkaGracz.Score[i] = true;
+            Form2.game.Resut();
+            Form2.game.ChangUser();
+            Form1.form.MainPictureSet(KolejkaGracz.PicturePath);
+            Form1.form.Label1SetValue(Form2.game.UserNick());
         }
         
     }

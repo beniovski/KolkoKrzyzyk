@@ -12,11 +12,13 @@ namespace kolkoKrzyzyk
 {
      public partial class Form2 : Form
     {
-        public static Game game { get; private  set; }
+        public static Game game { get; private set; }
 
+        public static Form form2 { get; set; }
         public Form2()
         {
             InitializeComponent();
+            form2 = this;
         }
 
         private void button1_Click(object sender, EventArgs e)
